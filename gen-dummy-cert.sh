@@ -17,4 +17,4 @@ fi
 
 PREFIX=$1
 
-answers | /usr/bin/openssl req -newkey rsa:2048 -keyout $PREFIX.key -out $PREFIX.cert -nodes -x509 -days 3650 2> /dev/null
+answers | /usr/bin/openssl req -newkey rsa:2048 -keyout $PREFIX.key -out $PREFIX.crt -nodes -x509 -days 3650 2> /dev/null
