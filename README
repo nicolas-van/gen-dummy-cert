@@ -1,0 +1,5 @@
+
+A very simple script to automatically generate self-signed ssl certificates.
+
+This is mostly useful to automate the creation of web servers and directly test them with ssl.
+
